@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACTO</title>
+  <link rel="stylesheet" href="build/styles.css">
+  <link rel="stylesheet" href="recursos/estilos_contacto.css">
+  <script src="recursos/funciones.js"></script>
+  <link rel="shortcut icon" href="recursos/media/logo/logo_icon.png" type="image/x-icon">
+  <!-- meta etiquetas -->
+  <meta name="robots" content="noindex, follow">
+  <meta name="description" content="Formulario de contacto para comunicarse con la empresa">
+</head>
+
+<body>
+  <!-- navbar -->
+  <section>
+    <nav class="bg-white-100" style="padding: 20px;">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <button id="menu-button" type="button"
+              class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-sky-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              aria-controls="mobile-menu" aria-expanded="false">
+              <span class="absolute -inset-0.5"></span>
+              <span class="sr-only">Open main menu</span>
+              <!-- Icon when menu is closed. Menu open: "hidden", Menu closed: "block" -->
+              <svg class="block h-6 w-6 menu-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <!-- Icon when menu is open. Menu open: "block", Menu closed: "hidden" -->
+              <svg class="hidden h-6 w-6 close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div class="flex flex-shrink-0 items-center">
+              <svg class="h-10 w-10 text-sky-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+                <path d="M5 17h-2v-6l2-5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+              </svg>
+
+            </div>
+            <div class="hidden sm:ml-6 sm:block">
+              <div class="flex space-x-4">
+
+                <a href="gimt.html"
+                  class="rounded-md px-3 py-2 text-sm font-bold text-black-300 hover:bg-sky-300 hover:text-white text-xl">GIMT</a>
+                <a href="../index.html"
+                  class="rounded-md px-3 py-2 text-sm font-bold text-black-300 hover:bg-sky-300 hover:text-white text-xl">SERVICIOS</a>
+                <a href="contacto.html" class="rounded-md bg-sky-600 px-3 py-2 text-sm font-medium text-white text-xl"
+                  aria-current="page">CONTACTO</a>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <!-- logo  -->
+           <!-- logo  -->
+           <div>
+            <div class="relative ml-3">
+              <div>
+                  <img src="recursos/media/logo/LOGOTIPO_GIMT.jpg" alt="GIMT LOGO" class="logo">
+              </div>
+          </div>
+      </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="sm:hidden hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pb-3 pt-8">
+
+          <a href="gimt.html"
+            class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-sky-300 hover:text-white">GIMT</a>
+          <a href="../index.html"
+            class="block rounded-md px-3 py-2 text-base font-medium text-black-300 hover:bg-sky-300 hover:text-white">SERVICIOS</a>
+          <a href="contacto.html" class="block rounded-md bg-sky-600 px-3 py-2 text-base font-medium text-white"
+            aria-current="page">CONTACTO</a>
+        </div>
+      </div>
+    </nav>
+    <!-- barra inferior a la navbar -->
+    <div class="bg-clip-padding p-2 bg-sky-500 "></div>
+  </section>
+
+
+  <!-- Formulario y datos de contacto -->
+
+  <section>
+    <div class="bg-white py-24 sm:py-32 ">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8 rounded-lg bg-gray-100  shadow-lg" style="padding-bottom: 70px; padding-top: 25px; ">
+        <div class="mx-auto max-w-2xl lg:text-center">
+          <h3 class="text-base font-semibold leading-7 text-indigo-600">GIMT </h3>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">¿Quieres que te contactemos?</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">LLena el siguiente formulario o revisa alguno de nuestos otros métodos de contacto</p>
+        </div>
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <!-- Formulario -->
+            <section>
+              <div class="relative sm:flex sm:justify-center col-start-1">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <!-- Form -->
+                  <section>
+                    <form class="max-w-md mx-auto" action="https://formspree.io/f/xvgpogkl" method="post">
+                      <div class="grid md:grid-cols-2 md:gap-6">
+                        <div class="relative z-0 w-full mb-5 group">
+                          <input type="text" name="Nombre(s):" id="floating_first_name"
+                            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black-300 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                            placeholder="" required />
+                          <label for="floating_first_name"
+                            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 w-full">*
+                            Nombre(s)</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                          <input type="text" name="Apellidos:" id="floating_last_name"
+                            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black-300 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                            placeholder=" " required />
+                          <label for="floating_last_name"
+                            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">*
+                            Apellidos</label>
+                        </div>
+                      </div>
+                      <div class="relative z-0 w-full mb-5 group">
+                        <input type="number" maxlength="10" minlength="10" name="Celular:" id="floating_phone"
+                          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                          placeholder=" " required />
+                        <label for="floating_email"
+                          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">*
+                          Telefono / Celular</label>
+                      </div>
+                      <div class="relative z-0 w-full mb-5 group">
+                        <input type="empresa" name="Compañia:" id="floating_company"
+                          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black-300 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                          placeholder=" " />
+                        <label for="floating_email"
+                          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                          Empresa (Opcional)</label>
+                      </div>
+                      <button type="submit"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
+                    </form>
+                  </section>
+                </dt>
+              </div>
+            </section>
+  
+            <!-- panel izquierdo -->
+            <dt>
+              <div class="relative pl-16 mx-auto">
+                <div class="grid grid-cols-6 gap-4 ">
+                  <div class="col-start-1 col-end-5">
+                    <div class="absolute flex h-10 w-10 items-center justify-center rounded-lg ">
+                      <img src="recursos/media/Iconos/telephone2.png" alt="Telefono-icon">
+                    </div>
+                    <p class="contactos">+55 4367 3624</p>
+                  </div>
+                  <div class="separacion col-start-1 col-end-5">
+                    <div class="absolute flex h-10 w-10 items-center justify-center rounded-lg ">
+                      <img src="recursos/media/Iconos/smartphone.png" alt="cellphone-icon">
+                    </div>
+                    <p class="contactos">+55 5034 3642</p>
+                  </div>
+                  <div class="col-start-1 col-end-5 ">
+                    <div class="absolute h-10 w-10 items-center justify-center rounded-lg ">
+                      <img src="recursos/media/Iconos/mail.png" alt="mail-icon">
+                    </div>
+                    <p class="contactos">finanzas@gimt.mx</p>
+                  </div>
+                  <div class="col-start-1 col-end-5 ">
+                    <div class="absolute flex h-10 w-10 items-center justify-center rounded-lg ">
+                      <img src="recursos/media/Iconos/mail.png" alt="mail-icon">
+                    </div>
+                    <p class="contactos">ignacio.monroy@gimt.mx</p>
+                  </div>
+                  <div class="col-start-2 espaciado-redes ">
+                    <a href="https://www.facebook.com/GrandesIdeasenMontajesyTraslados" target="_blank">
+                      <div class="absolute flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-200 ">
+                        <img src="recursos/media/Iconos/facebook2.png" alt="facebook-icon">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-start-4 espaciado-redes">
+                    <a href="https://www.instagram.com/gimt_grandesideas/" target="_blank">
+                      <div class="absolute flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-200 ">
+                        <img src="recursos/media/Iconos/instagram2.png" alt="instagram-icon">
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </dt>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  <!-- pie de pagina -->
+
+  <section>
+    <div class="bg-clip-padding p-2 bg-sky-500 "></div>
+    <footer class="w-full ">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!--Grid-->
+        <div class="py-1 flex justify-between items-center flex-col gap-8 xl:flex-row">
+          <div class="flex items-center flex-col xl:flex-row ">
+            <a href="" class="flex justify-center mb-8 xl:mb-0">
+              <img src="recursos/media/logo/LOGOTIPO_GIMT.jpg" alt="GIMT-LOGO">
+            </a>
+            <ul
+              class="text-lg  flex items-center flex-col md:flex-row  py-8 gap-6 md:gap-12 xl:border-l border-gray-200 xl:ml-11 xl:pl-11 transition-all duration-500">
+              <li>
+                <div class="text-gray-800 font-semibold text-base" style="text-align: center;">
+                  <img src="recursos/media/Iconos/phone-call.png" alt="Phone-icon"
+                    style="padding-left: 80px; margin-right: 80px; padding-bottom: 25px;">
+                  +55 5034 3642
+                  <br>
+                  <br>+55 4367 3624
+                </div>
+
+              </li>
+
+              <li>
+                <img src="recursos/media/Iconos/pin.png" alt="ping-icon" style="padding-left: 90px;">
+                <div class="text-gray-800 font-semibold text-base" style="text-align: center; ">
+                  <br>Cerrada de azucenas 76 Int. 20
+                  <br>colonia el molino Tezonco
+                  <br>C.P. 09960 Iztapalapa CDMX
+
+                </div>
+              </li>
+
+
+
+
+            </ul>
+          </div>
+
+
+          <a href="https://www.facebook.com/GrandesIdeasenMontajesyTraslados"
+          class="group w-9 h-9 rounded-full border border-gray-300 flex justify-center items-center transition-all duration-500 hover:border-indigo-600"
+          target="_blank">
+         <img src="recursos/media/Iconos/facebook.png" alt="facebook-icon">
+       </a>
+       <a href="https://www.instagram.com/gimt_grandesideas/"
+          class="group w-9 h-9 rounded-full border border-gray-300 flex justify-center items-center transition-all duration-500 hover:border-indigo-600"
+          target="_blank">
+         <img src="recursos/media/Iconos/instagram.png" alt="instagram-icon">
+       </a>
+       
+
+        </div>
+      </div>
+      <!--Grid-->
+      <div class="py-7 border-t border-gray-200">
+        <div class="flex items-center justify-center">
+          <span class="text-gray-400 " style="text-align: center;">Para más información, consulta nuestra sección de
+            Contactos o comunicate con nosotros
+            directamente.</span>
+        </div>
+      </div>
+
+    </footer>
+
+  </section>
+
+
+</body>
+
+</html>

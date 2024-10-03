@@ -1,0 +1,17 @@
+.logo {
+    
+}
+
+/* Adjust the logo size for small screens */
+@media (max-width: 576px) {
+    .logo {
+        height: 65px; /* Smaller size for small screens */
+    }
+}
+
+.segundoTexto{
+    margin-top: 10px;
+    padding-bottom: 40px;
+    
+}
+

@@ -1,0 +1,28 @@
+.contactos{
+    padding-left: 45px; 
+    padding-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.ubicacion{
+    padding-left: 50px;
+    
+}
+
+.espaciado-redes{
+    margin-top: 10px;
+}
+
+.logo {
+    
+}
+
+/* Adjust the logo size for small screens */
+@media (max-width: 576px) {
+    .logo {
+        height: 65px; /* Smaller size for small screens */
+    }
+}

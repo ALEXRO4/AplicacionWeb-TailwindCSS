@@ -1,0 +1,19 @@
+.fondo_imagen{
+    margin-top: 10px;
+    padding: 100px; 
+    background-size: cover; 
+    text-align: center; 
+    font-size: 50px;
+    font-family: poppins;
+    
+}
+.logo {
+    
+}
+
+/* Adjust the logo size for small screens */
+@media (max-width: 576px) {
+    .logo {
+        height: 65px; /* Smaller size for small screens */
+    }
+}
